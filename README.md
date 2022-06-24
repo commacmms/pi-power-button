@@ -1,5 +1,10 @@
+Forking this so I have personal copy I can refer to forever and ever. This is the solution I implemented for my on and off switch on the arrivals and departures board described here: 
+
+[RASPBERRY PI-BASED AIRPORT ARRIVALS AND DEPARTURES BOARD](https://supertechman.blogspot.com/2022/06/raspberry-pi-based-airport-arrivals-and.html)
+
+--------From here down it's the original README of the original repository.
+
 # pi-power-button
-test
 
 Scripts used in our official [Raspberry Pi power button guide](https://howchoo.com/g/mwnlytk3zmm/how-to-add-a-power-button-to-your-raspberry-pi).
 
