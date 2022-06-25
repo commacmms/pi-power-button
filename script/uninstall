@@ -14,3 +14,4 @@ sudo rm -rf /etc/init.d/listen-for-shutdown.sh
 
 echo "Shutdown listener uninstalled.\n"
 echo "Check out howchoo.com for more awesome Pi projects!"
+echo "Check out supertechmac.blogspot.com for more awesome projects in general!"
