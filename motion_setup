@@ -1,0 +1,19 @@
+#! /bin/sh
+
+set -e
+
+#cd "$(dirname "$0")/.."
+
+echo "=> Installing motion listener...\n"
+sudo cp listen-for-motion.py /usr/local/bin/
+sudo chmod +x /usr/local/bin/listen-for-motion.py
+
+echo "=> Starting motion listener...\n"
+sudo cp listen-for-motion.sh /etc/init.d/
+sudo chmod +x /etc/init.d/listen-for-motion.sh
+
+sudo update-rc.d listen-for-motion.sh defaults
+sudo /etc/init.d/listen-for-motion.sh start
+
+echo "Motion listener installed.\n"
+echo "Check out supertechman.blogspot.com for more awesome projects!"

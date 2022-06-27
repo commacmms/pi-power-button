@@ -1,0 +1,15 @@
+#! /bin/sh
+
+set -e
+
+echo "=> Stopping motionn listener...\n"
+sudo update-rc.d listen-for-motion.sh remove
+sudo /etc/init.d/listen-for-motion.sh stop
+
+echo "=> Removing motion listener...\n"
+sudo rm -rf /usr/local/bin/listen-for-motion.py
+sudo rm -rf /etc/init.d/listen-for-motion.sh
+
+echo "Motion listener uninstalled.\n"
+
+echo "Check out supertechmac.blogspot.com for more awesome projects in general!"
