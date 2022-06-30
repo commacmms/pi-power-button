@@ -1,8 +1,10 @@
 Forking this so I have personal copy I can refer to forever and ever. This is the solution I implemented for my on and off switch on the arrivals and departures board described here: 
 
-[RASPBERRY PI-BASED AIRPORT ARRIVALS AND DEPARTURES BOARD](https://supertechman.blogspot.com/2022/06/raspberry-pi-based-airport-arrivals-and.html)
+[RASPBERRY PI-BASED AIRPORT ARRIVALS AND DEPARTURES BOARD](https://supertechman.blogspot.com/2022/06/raspberry-pi-based-airport-arrivals-and.html) <-- on this site, search for all posts tagged as "airport" to get then full picture of this project.
 
 --------From here down it's the original README of the original repository.
+
+Everythin that has "motion" on the name is an add-on created for the installation of a motion sensor that switches on the screen upon movement detection. See more infomation on the the 
 
 # pi-power-button
 
