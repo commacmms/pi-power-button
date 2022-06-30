@@ -1,0 +1,17 @@
+#! /bin/sh
+
+set -e
+
+echo "=> Installing screen on listener...\n"
+sudo cp listen-for-screen-on.py /usr/local/bin/
+sudo chmod +x /usr/local/bin/listen-for-screen-on.py
+
+echo "=> Starting screen listener...\n"
+sudo cp listen-for-screen-on.sh /etc/init.d/
+sudo chmod +x /etc/init.d/listen-for-screen-on.sh
+
+sudo update-rc.d listen-for-screen-on.sh defaults
+sudo /etc/init.d/listen-for-screen-on.sh start
+
+echo "Screen listener installed.\n"
+echo "Check out supertechman.blogspot.com for more awesome projects!"

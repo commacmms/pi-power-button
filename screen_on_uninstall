@@ -1,0 +1,15 @@
+#! /bin/sh
+
+set -e
+
+echo "=> Stopping screen on listener...\n"
+sudo update-rc.d listen-for-screen-on.sh remove
+sudo /etc/init.d/listen-for-screen-on.sh stop
+
+echo "=> Removing screen on listener...\n"
+sudo rm -rf /usr/local/bin/listen-for-screen-on.py
+sudo rm -rf /etc/init.d/listen-for-screen-on.sh
+
+echo "Screen on listener uninstalled.\n"
+
+echo "Check out supertechman.blogspot.com for more awesome projects in general!"
